@@ -199,11 +199,6 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.rajendarreddyj</groupId>
-        <artifactId>common-pojos</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
         <groupId>javax</groupId>
         <artifactId>javaee-api</artifactId>
         <version>${javaee.api.version}</version>
