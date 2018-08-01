@@ -146,5 +146,55 @@
         <ignoreVersion type="regex">(?i).*beta(?:-?\d+)?</ignoreVersion>
       </ignoreVersions>
     </rule>
+    <rule groupId="org.junit.jupiter">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*M(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.junit.platform">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*M(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.junit.vintage">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*M(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="io.dropwizard.metrics">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*rc(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.eclipse.jetty">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*RC(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.codehaus.groovy">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*alpha(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.infinispan">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*Alpha(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="io.netty">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*Alpha(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="io.lettuce">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*M(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId=" com.thoughtworks.xstream">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*java(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
   </rules>
 </ruleset>

@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rajendarreddyj</groupId>
   <artifactId>development-pom</artifactId>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <packaging>pom</packaging>
   <name>Java Development Projects</name>
   <description>Java Development Projects</description>
@@ -17,45 +17,47 @@
     <javax.mail.api.version>1.6.1</javax.mail.api.version>
     <javax.json.api.version>1.1.2</javax.json.api.version>
     <!-- Servlet Version -->
-    <javax.servlet.api.version>4.0.0</javax.servlet.api.version>
+    <javax.servlet.api.version>4.0.1</javax.servlet.api.version>
     <javax.servlet.jsp.jstl.version>1.2</javax.servlet.jsp.jstl.version>
     <javax.transaction.jta.version>1.1</javax.transaction.jta.version>
     <cos.servlet.version>05Nov2002</cos.servlet.version>
     <!-- Spring Framework Version -->
-    <spring.version>5.0.3.RELEASE</spring.version>
-    <spring.security.version>5.0.1.RELEASE</spring.security.version>
-    <spring.boot.version>1.5.10.RELEASE</spring.boot.version>
-    <spring.data.version>2.0.3.RELEASE</spring.data.version>
-    <spring.data.jpa.version>2.0.3.RELEASE</spring.data.jpa.version>
-    <spring.batch.version>4.0.0.RELEASE</spring.batch.version>
-    <spring.cloud.version>1.2.2.RELEASE</spring.cloud.version>
+    <spring.framework.version>5.0.8.RELEASE</spring.framework.version>
+    <spring.security.version>5.0.7.RELEASE</spring.security.version>
+    <spring.boot.version>2.0.4.RELEASE</spring.boot.version>
+    <spring.data.version>2.0.9.RELEASE</spring.data.version>
+    <spring.batch.version>4.0.1.RELEASE</spring.batch.version>
+    <spring.cloud.version>2.0.0.RELEASE</spring.cloud.version>
     <aopalliance.version>1.0</aopalliance.version>
     <!-- AspectJ Version -->
-    <aspectj.version>1.8.13</aspectj.version>
+    <aspectj.version>1.9.1</aspectj.version>
     <!-- Struts Version -->
     <struts1.version>1.3.10</struts1.version>
-    <struts2.version>2.5.14.1</struts2.version>
+    <struts2.version>2.5.16</struts2.version>
     <struts2.tiles3.plugin.version>2.3.34</struts2.tiles3.plugin.version>
     <freemarker.version>2.3.23</freemarker.version>
     <tiles.api.version>3.0.8</tiles.api.version>
     <tiles.request.api.version>1.0.7</tiles.request.api.version>
-    <ognl.version>3.2.4</ognl.version>
-    <cglib.version>3.2.6</cglib.version>
+    <ognl.version>3.2.6</ognl.version>
+    <cglib.version>3.2.7</cglib.version>
     <!-- Guava Version -->
-    <guava.version>24.0-jre</guava.version>
+    <guava.version>25.1-jre</guava.version>
+    <dropwizard.version>1.3.5</dropwizard.version>
+    <metrics.version>4.0.3</metrics.version>
     <!-- persistence -->
     <rsql.version>2.1.0</rsql.version>
-    <querydsl.version>4.1.4</querydsl.version>
+    <querydsl.version>4.2.1</querydsl.version>
     <!-- Hibernate/Persistence Frameworks Dependencies Start -->
     <!-- old version need to cleanup -->
     <net.sf.hibernate.version>2.1.8</net.sf.hibernate.version>
-    <net.sf.ehcache.version>2.10.4</net.sf.ehcache.version>
-    <hibernate.core.version>5.2.13.Final</hibernate.core.version>
-    <hibernate.validator.version>6.0.7.Final</hibernate.validator.version>
+    <net.sf.ehcache.version>2.10.5</net.sf.ehcache.version>
+    <org.ehcache.version>3.5.2</org.ehcache.version>
+    <hibernate.core.version>5.2.17.Final</hibernate.core.version>
+    <hibernate.validator.version>6.0.11.Final</hibernate.validator.version>
     <hibernate.jpa.version>1.0.2</hibernate.jpa.version>
-    <hibernate.commons.annotations.version>5.0.1.Final</hibernate.commons.annotations.version>
+    <hibernate.commons.annotations.version>5.0.4.Final</hibernate.commons.annotations.version>
     <jboss.logging.version>3.3.2.Final</jboss.logging.version>
-    <classmate.version>1.3.4</classmate.version>
+    <classmate.version>1.4.0</classmate.version>
     <!-- dom4j XML Processing Version -->
     <dom4j.version>1.6.1</dom4j.version>
     <validation.api.version>2.0.1.Final</validation.api.version>
@@ -63,24 +65,24 @@
     <javassist.version>3.21.0-GA</javassist.version>
     <!-- ANTLR Parser Generator Version -->
     <antlr.version>2.7.7</antlr.version>
-    <jandex.version>2.0.4.Final</jandex.version>
+    <jandex.version>2.0.5.Final</jandex.version>
     <!-- Hibernate/Persistence Frameworks Dependencies End -->
     <!-- Jackson Version -->
-    <jackson.version>2.9.4</jackson.version>
+    <jackson.version>2.9.6</jackson.version>
     <xstream.version>1.4.10</xstream.version>
     <!-- Logging Framework Version -->
     <logback.version>1.2.3</logback.version>
     <slf4j.version>1.7.25</slf4j.version>
     <log4j1.version>1.2.17</log4j1.version>
-    <log4j2.version>2.10.0</log4j2.version>
+    <log4j2.version>2.11.1</log4j2.version>
     <!-- httpclient Version -->
-    <httpclient.version>4.5.5</httpclient.version>
-    <httpcore.version>4.4.9</httpcore.version>
+    <httpclient.version>4.5.6</httpclient.version>
+    <httpcore.version>4.4.10</httpcore.version>
     <itextpdf.version>5.5.13</itextpdf.version>
-    <pdfbox.version>2.0.8</pdfbox.version>
+    <pdfbox.version>2.0.11</pdfbox.version>
     <poi.version>3.17</poi.version>
     <ooxml.schemas.version>1.3</ooxml.schemas.version>
-    <xdocreport.version>2.0.0</xdocreport.version>
+    <xdocreport.version>2.0.1</xdocreport.version>
     <!-- Commons Dependencies -->
     <commons.codec.version>1.11</commons.codec.version>
     <commons.dbcp.version>1.4</commons.dbcp.version>
@@ -89,7 +91,7 @@
     <commons.beanutils.version>1.9.3</commons.beanutils.version>
     <commons.digester.version>2.1</commons.digester.version>
     <commons.collections.version>3.2.2</commons.collections.version>
-    <commons.collections4.version>4.1</commons.collections4.version>
+    <commons.collections4.version>4.2</commons.collections4.version>
     <commons.fileupload.version>1.3.3</commons.fileupload.version>
     <commons.io.version>2.6</commons.io.version>
     <commons.logging.version>1.2</commons.logging.version>
@@ -99,47 +101,50 @@
     <!-- Yui Compressor Version -->
     <yuicompressor.version>2.4.8</yuicompressor.version>
     <taglibs.version>1.2.5</taglibs.version>
-    <rivr.voicexml.version>1.0.9</rivr.voicexml.version>
+    <rivr.voicexml.version>1.0.10</rivr.voicexml.version>
     <org.glassfish.javax.json.version>1.1.2</org.glassfish.javax.json.version>
     <quartz.version>2.3.0</quartz.version>
-    <neo4j.version>3.3.3</neo4j.version>
+    <neo4j.version>3.4.5</neo4j.version>
     <rxjava.version>2.1.9</rxjava.version>
     <!-- Testing Dependencies -->
     <!-- JUNIT Version -->
-    <selenium.version>3.9.1</selenium.version>
-    <htmlunit.version>2.28</htmlunit.version>
-    <junit.version>4.12</junit.version>
+    <selenium.version>3.13.0</selenium.version>
+    <htmlunit.driver.version>2.32.0</htmlunit.driver.version>
+    <htmlunit.version>2.32</htmlunit.version>
+    <junit.legacy.version>4.12</junit.legacy.version>
+    <junit.version>5.2.0</junit.version>
+    <junit.platform.version>1.2.0</junit.platform.version>
     <mockito.version>2.7.22</mockito.version>
     <io-assured.version>3.0.7</io-assured.version>
     <org.hamcrest.version>1.3</org.hamcrest.version>
-    <p6spy.version>3.6.0</p6spy.version>
-    <testng.version>6.14.2</testng.version>
+    <p6spy.version>3.7.0</p6spy.version>
+    <testng.version>6.14.3</testng.version>
     <assertj.version>3.9.0</assertj.version>
     <!-- ActiveMQ Version -->
-    <activemq.version>5.7.0</activemq.version>
-    <xbean.spring.version>4.6</xbean.spring.version>
+    <activemq.version>5.15.4</activemq.version>
+    <xbean.spring.version>4.9</xbean.spring.version>
     <json.path.version>2.4.0</json.path.version>
-    <gson.version>2.8.2</gson.version>
+    <gson.version>2.8.5</gson.version>
     <!-- EL-API Version -->
     <javax.el.version>3.0.0</javax.el.version>
     <!-- ESAPI Version -->
     <org.owasp.esapi.version>2.1.0.1</org.owasp.esapi.version>
     <!-- JSOUP Version -->
-    <org.jsoup.version>1.11.2</org.jsoup.version>
-    <mysql.connector.version>6.0.6</mysql.connector.version>
-    <hsqldb.version>2.4.0</hsqldb.version>
-    <h2.version>1.4.196</h2.version>
+    <org.jsoup.version>1.11.3</org.jsoup.version>
+    <mysql.connector.version>8.0.12</mysql.connector.version>
+    <hsqldb.version>2.4.1</hsqldb.version>
+    <h2.version>1.4.197</h2.version>
     <!-- Oracle DB jar Version -->
     <ojdbc6.version>11.2.0.4.0</ojdbc6.version>
-    <postgresql.version>42.2.1</postgresql.version>
-    <xerces.version>2.11.0</xerces.version>
+    <postgresql.version>42.2.4</postgresql.version>
+    <xerces.version>2.12.0</xerces.version>
     <velocity.version>1.7</velocity.version>
     <velocity.tools.version>2.0</velocity.tools.version>
     <xml.apis.version>1.4.01</xml.apis.version>
-    <xmlbeans.version>2.6.0</xmlbeans.version>
+    <xmlbeans.version>3.0.0</xmlbeans.version>
     <!-- weld cdi -->
     <cdi.api.version>2.0.SP1</cdi.api.version>
-    <weld.version>3.0.4.Final</weld.version>
+    <weld.version>3.0.5.Final</weld.version>
     <!-- PLUGIN VERSIONS -->
     <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
     <maven.clean.plugin.version>3.1.0</maven.clean.plugin.version>
@@ -334,7 +339,7 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -345,17 +350,17 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-beans</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-expression</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -366,7 +371,7 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context-support</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -377,17 +382,17 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-web</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-jms</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-webmvc</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
         <exclusions>
           <exclusion>
             <groupId>org.slf4j</groupId>
@@ -410,13 +415,13 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-oxm</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-aop</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
       </dependency>
       <dependency>
         <groupId>aopalliance</groupId>
@@ -426,17 +431,17 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-orm</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-jdbc</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-tx</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -452,7 +457,7 @@
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-jpa</artifactId>
-        <version>${spring.data.jpa.version}</version>
+        <version>${spring.data.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.security</groupId>
@@ -919,6 +924,11 @@
         <version>${net.sf.ehcache.version}</version>
       </dependency>
       <dependency>
+        <groupId>org.ehcache</groupId>
+        <artifactId>ehcache</artifactId>
+        <version>${org.ehcache.version}</version>
+      </dependency>
+      <dependency>
         <groupId>servlets.com</groupId>
         <artifactId>cos</artifactId>
         <version>${cos.servlet.version}</version>
@@ -965,6 +975,21 @@
       </dependency>
       <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-edge-driver</artifactId>
+        <version>${selenium.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-opera-driver</artifactId>
+        <version>${selenium.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-safari-driver</artifactId>
+        <version>${selenium.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-server</artifactId>
         <version>${selenium.version}</version>
         <exclusions>
@@ -987,7 +1012,7 @@
       <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>htmlunit-driver</artifactId>
-        <version>${htmlunit.version}</version>
+        <version>${htmlunit.driver.version}</version>
       </dependency>
       <dependency>
         <groupId>net.sourceforge.htmlunit</groupId>
@@ -1002,6 +1027,21 @@
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
+        <version>${junit.legacy.version}</version>
+      </dependency>
+       <dependency>
+        <groupId>org.junit.platform</groupId>
+        <artifactId>junit-platform-launcher</artifactId>
+        <version>${junit.platform.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>${junit.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.junit.vintage</groupId>
+        <artifactId>junit-vintage-engine</artifactId>
         <version>${junit.version}</version>
       </dependency>
       <dependency>
@@ -1079,7 +1119,7 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-test</artifactId>
-        <version>${spring.version}</version>
+        <version>${spring.framework.version}</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -1353,6 +1393,16 @@
         <groupId>fr.opensagres.xdocreport</groupId>
         <artifactId>fr.opensagres.poi.xwpf.converter.pdf.itext5</artifactId>
         <version>${xdocreport.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.dropwizard</groupId>
+        <artifactId>dropwizard-core</artifactId>
+        <version>${dropwizard.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.dropwizard.metrics</groupId>
+        <artifactId>metrics-core</artifactId>
+        <version>${metrics.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.poi</groupId>
