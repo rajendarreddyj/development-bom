@@ -191,9 +191,33 @@
         <ignoreVersion type="regex">(?i).*M(?:-?\d+)?</ignoreVersion>
       </ignoreVersions>
     </rule>
-    <rule groupId=" com.thoughtworks.xstream">
+    <rule groupId="com.thoughtworks.xstream">
       <ignoreVersions>
         <ignoreVersion type="regex">(?i).*java(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.infinispan">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*Alpha(?:-?\d+)?</ignoreVersion>
+        <ignoreVersion type="regex">(?i).*Beta(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.junit.jupiter">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*RC(?:-?\d+)?</ignoreVersion>
+        <ignoreVersion type="regex">(?i).*M(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.junit.platform">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*RC(?:-?\d+)?</ignoreVersion>
+        <ignoreVersion type="regex">(?i).*M(?:-?\d+)?</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="org.junit.vintage">
+      <ignoreVersions>
+        <ignoreVersion type="regex">(?i).*RC(?:-?\d+)?</ignoreVersion>
+        <ignoreVersion type="regex">(?i).*M(?:-?\d+)?</ignoreVersion>
       </ignoreVersions>
     </rule>
   </rules>
