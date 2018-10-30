@@ -17,7 +17,7 @@
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <!-- Java Specs apis -->
     <javaee.api.version>8.0</javaee.api.version>
-    <javax.mail.api.version>1.6.1</javax.mail.api.version>
+    <javax.mail.api.version>1.6.2</javax.mail.api.version>
     <javax.json.api.version>1.1.2</javax.json.api.version>
     <!-- Servlet Version -->
     <javax.servlet.api.version>4.0.1</javax.servlet.api.version>
@@ -26,7 +26,7 @@
     <cos.servlet.version>05Nov2002</cos.servlet.version>
     <aopalliance.version>1.0</aopalliance.version>
     <!-- AspectJ Version -->
-    <aspectj.version>1.9.1</aspectj.version>
+    <aspectj.version>1.9.2</aspectj.version>
     <!-- Struts Version -->
     <struts1.version>1.3.10</struts1.version>
     <struts2.version>2.5.17</struts2.version>
@@ -35,20 +35,21 @@
     <tiles.api.version>3.0.8</tiles.api.version>
     <tiles.request.api.version>1.0.7</tiles.request.api.version>
     <ognl.version>3.2.6</ognl.version>
-    <cglib.version>3.2.7</cglib.version>
+    <cglib.version>3.2.9</cglib.version>
     <!-- Jersey Version -->
     <jersey.version>2.27</jersey.version>
     <!-- Guava Version -->
-    <guava.version>26.0-jre</guava.version>
-    <dropwizard.version>1.3.5</dropwizard.version>
+    <guava.version>27.0-jre</guava.version>
+    <dropwizard.version>1.3.7</dropwizard.version>
+    <micrometer.version>1.1.0</micrometer.version>
     <dropwizard.metrics.version>4.0.3</dropwizard.metrics.version>
     <narayana.version>5.9.0.Final</narayana.version>
     <kotlin.version>1.2.61</kotlin.version>
     <sendgrid.java.version>4.2.1</sendgrid.java.version>
-    <unboundid.ldapsdk.version>4.0.7</unboundid.ldapsdk.version>
+    <unboundid.ldapsdk.version>4.0.8</unboundid.ldapsdk.version>
     <hikaricp.version>3.2.0</hikaricp.version>
     <de.flapdoodle.embed.mongo.version>2.1.1</de.flapdoodle.embed.mongo.version>
-    <lettuce.version>5.0.5.RELEASE</lettuce.version>
+    <lettuce.version>5.1.2.RELEASE</lettuce.version>
     <rest.assured.version>3.1.1</rest.assured.version>
     <jest.version>6.3.1</jest.version>
     <undertow.version>2.0.13.Final</undertow.version>
@@ -61,10 +62,10 @@
     <net.sf.hibernate.version>2.1.8</net.sf.hibernate.version>
     <net.sf.ehcache.version>2.10.5</net.sf.ehcache.version>
     <org.ehcache.version>3.5.2</org.ehcache.version>
-    <hibernate.core.version>5.3.5.Final</hibernate.core.version>
-    <hibernate.validator.version>6.0.12.Final</hibernate.validator.version>
+    <hibernate.core.version>5.3.7.Final</hibernate.core.version>
+    <hibernate.validator.version>6.0.13.Final</hibernate.validator.version>
     <hibernate.jpa.version>1.0.2</hibernate.jpa.version>
-    <hibernate.commons.annotations.version>5.0.4.Final</hibernate.commons.annotations.version>
+    <hibernate.commons.annotations.version>5.0.5.Final</hibernate.commons.annotations.version>
     <jboss.logging.version>3.3.2.Final</jboss.logging.version>
     <classmate.version>1.4.0</classmate.version>
     <!-- dom4j XML Processing Version -->
@@ -76,11 +77,13 @@
     <antlr.version>2.7.7</antlr.version>
     <jandex.version>2.0.5.Final</jandex.version>
     <kafka.version>2.0.0</kafka.version>
-    <hazelcast.version>3.10.4</hazelcast.version>
+    <hazelcast.version>3.11</hazelcast.version>
+    <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
+    <thymeleaf.extras.version>3.0.11.RELEASE</thymeleaf.extras.version>
     <!-- Hibernate/Persistence Frameworks Dependencies End -->
     <!-- Jackson Version -->
     <jackson.version>2.9.7</jackson.version>
-    <xstream.version>1.4.10</xstream.version>
+    <xstream.version>1.4.11.1</xstream.version>
     <!-- Logging Framework Version -->
     <logback.version>1.2.3</logback.version>
     <slf4j.version>1.7.25</slf4j.version>
@@ -90,16 +93,16 @@
     <httpclient.version>4.5.6</httpclient.version>
     <httpcore.version>4.4.10</httpcore.version>
     <itextpdf.version>5.5.13</itextpdf.version>
-    <pdfbox.version>2.0.11</pdfbox.version>
-    <poi.version>3.17</poi.version>
-    <ooxml.schemas.version>1.3</ooxml.schemas.version>
+    <pdfbox.version>2.0.12</pdfbox.version>
+    <poi.version>4.0.0</poi.version>
+    <ooxml.schemas.version>1.4</ooxml.schemas.version>
     <xdocreport.version>2.0.1</xdocreport.version>
     <!-- Commons Dependencies -->
     <commons.codec.version>1.11</commons.codec.version>
     <commons.dbcp.version>1.4</commons.dbcp.version>
     <commons.dbcp2.version>2.5.0</commons.dbcp2.version>
     <commons.discovery.version>0.5</commons.discovery.version>
-    <commons.lang3.version>3.8</commons.lang3.version>
+    <commons.lang3.version>3.8.1</commons.lang3.version>
     <commons.beanutils.version>1.9.3</commons.beanutils.version>
     <commons.digester.version>2.1</commons.digester.version>
     <commons.collections.version>3.2.2</commons.collections.version>
@@ -118,28 +121,27 @@
     <rivr.voicexml.version>1.0.10</rivr.voicexml.version>
     <org.glassfish.javax.json.version>1.1.2</org.glassfish.javax.json.version>
     <quartz.version>2.3.0</quartz.version>
-    <neo4j.version>3.4.5</neo4j.version>
     <rxjava.version>2.2.0</rxjava.version>
-    <groovy.version>2.5.2</groovy.version>
+    <groovy.version>2.5.3</groovy.version>
     <rest.assured.version>3.1.1</rest.assured.version>
-    <solr.version>7.4.0</solr.version>
-    <snakeyaml.version>1.21</snakeyaml.version>
+    <solr.version>7.5.0</solr.version>
+    <snakeyaml.version>1.23</snakeyaml.version>
     <!-- Testing Dependencies -->
     <!-- JUNIT Version -->
     <selenium.version>3.14.0</selenium.version>
-    <selenium.htmlunit.driver.version>2.32.1</selenium.htmlunit.driver.version>
+    <selenium.htmlunit.driver.version>2.33.0</selenium.htmlunit.driver.version>
     <htmlunit.version>2.32</htmlunit.version>
-    <xmlunit.version>2.6.1</xmlunit.version>
+    <xmlunit.version>2.6.2</xmlunit.version>
     <junit.legacy.version>4.12</junit.legacy.version>
     <junit-jupiter.version>5.3.1</junit-jupiter.version>
-    <mockito.version>2.7.22</mockito.version>
+    <mockito.version>2.23.0</mockito.version>
     <org.hamcrest.version>1.3</org.hamcrest.version>
-    <p6spy.version>3.7.0</p6spy.version>
+    <p6spy.version>3.8.0</p6spy.version>
     <testng.version>6.14.3</testng.version>
     <assertj.version>3.11.0</assertj.version>
     <!-- ActiveMQ Version -->
-    <activemq.version>5.15.5</activemq.version>
-    <rabbitmq.amqp.client.version>5.3.0</rabbitmq.amqp.client.version>
+    <activemq.version>5.15.7</activemq.version>
+    <rabbitmq.amqp.client.version>5.5.0</rabbitmq.amqp.client.version>
     <artemis.version>2.6.2</artemis.version>
     <xbean.spring.version>4.9</xbean.spring.version>
     <json.path.version>2.4.0</json.path.version>
@@ -160,23 +162,23 @@
     <hsqldb.version>2.4.1</hsqldb.version>
     <h2.version>1.4.197</h2.version>
     <mssql.jdbc.version>7.0.0.jre10</mssql.jdbc.version>
-    <sqlite.jdbc.version>3.23.1</sqlite.jdbc.version>
+    <sqlite.jdbc.version>3.25.2</sqlite.jdbc.version>
     <!-- Oracle DB jar Version -->
     <ojdbc6.version>11.2.0.4.0</ojdbc6.version>
     <postgresql.version>42.2.4</postgresql.version>
     <influxdb.version>2.9</influxdb.version>
-    <mongodb.version>3.8.1</mongodb.version>
-    <mongodb.reactivestreams.version>1.9.1</mongodb.reactivestreams.version>
-    <cassandra.version>3.5.1</cassandra.version>
-    <couchbase.java.client.version>2.6.1</couchbase.java.client.version>
+    <mongodb.version>3.8.2</mongodb.version>
+    <mongodb.reactivestreams.version>1.9.2</mongodb.reactivestreams.version>
+    <cassandra.version>3.6.0</cassandra.version>
+    <couchbase.java.client.version>2.7.0</couchbase.java.client.version>
     <!-- Nosql DB -->
-    <infinispan.version>9.3.1.Final</infinispan.version>
+    <infinispan.version>9.4.0.Final</infinispan.version>
     <!-- weld cdi -->
     <cdi.api.version>2.0.SP1</cdi.api.version>
     <weld.version>3.0.5.Final</weld.version>
     <neo4j.version>3.4.6</neo4j.version>
-    <neo4j.ogm.version>3.1.2</neo4j.ogm.version>
-    <reactor-bom.version>Californium-RELEASE</reactor-bom.version>
+    <neo4j.ogm.version>3.1.4</neo4j.ogm.version>
+    <reactor-bom.version>Californium-SR2</reactor-bom.version>
     <!-- PLUGIN VERSIONS -->
     <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
     <maven.clean.plugin.version>3.1.0</maven.clean.plugin.version>
@@ -216,8 +218,8 @@
     <jetty-jsp.version>2.2.0.v201112011158</jetty-jsp.version>
     <jetty-el.version>8.5.33</jetty-el.version>
     <jetty-reactive-httpclient.version>1.0.1</jetty-reactive-httpclient.version>
-    <tomcat.embed.version>9.0.11</tomcat.embed.version>
-    <netty.version>4.1.29.Final</netty.version>
+    <tomcat.embed.version>9.0.12</tomcat.embed.version>
+    <netty.version>4.1.31.Final</netty.version>
     <!-- All source is UTF-8 -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
@@ -1754,62 +1756,62 @@
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-core</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-atlas</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-datadog</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-influx</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-ganglia</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-graphite</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-jmx</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-new-relic</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-prometheus</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-signalfx</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-statsd</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-wavefront</artifactId>
-        <version>1.0.6</version>
+        <version>${micrometer.version}</version>
       </dependency>
       <dependency>
         <groupId>io.reactivex</groupId>
@@ -1934,17 +1936,17 @@
       <dependency>
         <groupId>net.sourceforge.jtds</groupId>
         <artifactId>jtds</artifactId>
-        <version>1.3.1</version>
+        <version>${jtds.version}</version>
       </dependency>
       <dependency>
         <groupId>net.sourceforge.nekohtml</groupId>
         <artifactId>nekohtml</artifactId>
-        <version>1.9.22</version>
+        <version>${nekohtml.version}</version>
       </dependency>
       <dependency>
         <groupId>nz.net.ultraq.thymeleaf</groupId>
         <artifactId>thymeleaf-layout-dialect</artifactId>
-        <version>2.3.0</version>
+        <version>${thymeleaf.layout.dialect.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.activemq</groupId>
@@ -2021,12 +2023,12 @@
       <dependency>
         <groupId>org.apache.derby</groupId>
         <artifactId>derby</artifactId>
-        <version>10.14.1.0</version>
+        <version>${derby.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpasyncclient</artifactId>
-        <version>4.1.3</version>
+        <version>${httpasyncclient.version}</version>
         <exclusions>
           <exclusion>
             <artifactId>commons-logging</artifactId>
@@ -2037,37 +2039,37 @@
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>fluent-hc</artifactId>
-        <version>4.5.6</version>
+        <version>${httpclient.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient-cache</artifactId>
-        <version>4.5.6</version>
+        <version>${httpclient.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient-osgi</artifactId>
-        <version>4.5.6</version>
+        <version>${httpclient.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient-win</artifactId>
-        <version>4.5.6</version>
+        <version>${httpclient.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpcore-nio</artifactId>
-        <version>4.4.10</version>
+        <version>${httpcore.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpmime</artifactId>
-        <version>4.5.6</version>
+        <version>${httpclient.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.johnzon</groupId>
         <artifactId>johnzon-jsonb</artifactId>
-        <version>1.1.8</version>
+        <version>${johnzon.jsonb.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.kafka</groupId>
@@ -2187,7 +2189,7 @@
       <dependency>
         <groupId>org.codehaus.btm</groupId>
         <artifactId>btm</artifactId>
-        <version>2.1.4</version>
+        <version>${btm.version}</version>
       </dependency>
       <dependency>
         <groupId>org.codehaus.groovy</groupId>
@@ -2287,58 +2289,58 @@
       <dependency>
         <groupId>org.codehaus.janino</groupId>
         <artifactId>janino</artifactId>
-        <version>3.0.8</version>
+        <version>${janino.version}</version>
       </dependency>
       <dependency>
         <groupId>org.ehcache</groupId>
         <artifactId>ehcache-clustered</artifactId>
-        <version>3.5.2</version>
+        <version>${ehcache3.version}</version>
       </dependency>
       <dependency>
         <groupId>org.ehcache</groupId>
         <artifactId>ehcache-transactions</artifactId>
-        <version>3.5.2</version>
+        <version>${ehcache3.version}</version>
       </dependency>
       <dependency>
         <groupId>org.elasticsearch</groupId>
         <artifactId>elasticsearch</artifactId>
-        <version>5.6.10</version>
+        <version>${elasticsearch.version}</version>
       </dependency>
       <dependency>
         <groupId>org.elasticsearch.client</groupId>
         <artifactId>transport</artifactId>
-        <version>5.6.10</version>
+        <version>${elasticsearch.version}</version>
       </dependency>
       <dependency>
         <groupId>org.elasticsearch.distribution.integ-test-zip</groupId>
         <artifactId>elasticsearch</artifactId>
-        <version>5.6.10</version>
+        <version>${elasticsearch.version}</version>
         <type>zip</type>
       </dependency>
       <dependency>
         <groupId>org.elasticsearch.plugin</groupId>
         <artifactId>transport-netty4-client</artifactId>
-        <version>5.6.10</version>
+        <version>${elasticsearch.version}</version>
       </dependency>
       <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>jaybird-jdk17</artifactId>
-        <version>3.0.4</version>
+        <version>${jaybird.version}</version>
       </dependency>
       <dependency>
         <groupId>org.firebirdsql.jdbc</groupId>
         <artifactId>jaybird-jdk18</artifactId>
-        <version>3.0.4</version>
+        <version>${jaybird.version}</version>
       </dependency>
       <dependency>
         <groupId>org.flywaydb</groupId>
         <artifactId>flyway-core</artifactId>
-        <version>5.0.7</version>
+        <version>${flyway.version}</version>
       </dependency>
       <dependency>
         <groupId>org.glassfish</groupId>
         <artifactId>javax.el</artifactId>
-        <version>3.0.0</version>
+        <version>${javax.el.version}</version>
       </dependency>
       <!-- Jersey Dependencies Start -->
       <dependency>
@@ -2754,37 +2756,37 @@
       <dependency>
         <groupId>org.jolokia</groupId>
         <artifactId>jolokia-core</artifactId>
-        <version>1.5.0</version>
+        <version>${jolokia.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jooq</groupId>
         <artifactId>jooq</artifactId>
-        <version>3.10.8</version>
+        <version>${jooq.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jooq</groupId>
         <artifactId>jooq-meta</artifactId>
-        <version>3.10.8</version>
+        <version>${jooq.version}</version>
       </dependency>
       <dependency>
         <groupId>org.jooq</groupId>
         <artifactId>jooq-codegen</artifactId>
-        <version>3.10.8</version>
+        <version>${jooq.version}</version>
       </dependency>
       <dependency>
         <groupId>org.liquibase</groupId>
         <artifactId>liquibase-core</artifactId>
-        <version>3.5.5</version>
+        <version>${liquibase.version}</version>
       </dependency>
       <dependency>
         <groupId>org.mariadb.jdbc</groupId>
         <artifactId>mariadb-java-client</artifactId>
-        <version>2.2.6</version>
+        <version>${mariadb.java.client.version}</version>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-inline</artifactId>
-        <version>2.15.0</version>
+        <version>${mockito.version}</version>
       </dependency>
       <dependency>
         <groupId>org.mongodb</groupId>
@@ -2839,87 +2841,87 @@
       <dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
-        <version>1.16.22</version>
+        <version>${lombok.version}</version>
       </dependency>
       <dependency>
         <groupId>org.reactivestreams</groupId>
         <artifactId>reactive-streams</artifactId>
-        <version>1.0.2</version>
+        <version>${reactive.streams.version}</version>
       </dependency>
       <dependency>
         <groupId>org.skyscreamer</groupId>
         <artifactId>jsonassert</artifactId>
-        <version>1.5.0</version>
+        <version>${jsonassert.version}</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>jul-to-slf4j</artifactId>
-        <version>1.7.25</version>
+        <version>${slf4j.version}</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-ext</artifactId>
-        <version>1.7.25</version>
+        <version>${slf4j.version}</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-jcl</artifactId>
-        <version>1.7.25</version>
+        <version>${slf4j.version}</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-jdk14</artifactId>
-        <version>1.7.25</version>
+        <version>${slf4j.version}</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-log4j12</artifactId>
-        <version>1.7.25</version>
+        <version>${slf4j.version}</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-nop</artifactId>
-        <version>1.7.25</version>
+        <version>${slf4j.version}</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-simple</artifactId>
-        <version>1.7.25</version>
+        <version>${slf4j.version}</version>
       </dependency>
       <dependency>
         <groupId>org.synchronoss.cloud</groupId>
         <artifactId>nio-multipart-parser</artifactId>
-        <version>1.1.0</version>
+        <version>${nio.multipart.parser.version}</version>
       </dependency>
       <dependency>
         <groupId>org.thymeleaf</groupId>
         <artifactId>thymeleaf</artifactId>
-        <version>3.0.9.RELEASE</version>
+        <version>${thymeleaf.version}</version>
       </dependency>
       <dependency>
         <groupId>org.thymeleaf</groupId>
         <artifactId>thymeleaf-spring5</artifactId>
-        <version>3.0.9.RELEASE</version>
+        <version>${thymeleaf.version}</version>
       </dependency>
       <dependency>
         <groupId>org.thymeleaf.extras</groupId>
         <artifactId>thymeleaf-extras-java8time</artifactId>
-        <version>3.0.1.RELEASE</version>
+        <version>${thymeleaf.extras.version}</version>
       </dependency>
       <dependency>
         <groupId>org.thymeleaf.extras</groupId>
         <artifactId>thymeleaf-extras-springsecurity4</artifactId>
-        <version>3.0.2.RELEASE</version>
+        <version>${thymeleaf.extras.version}</version>
       </dependency>
       <dependency>
         <groupId>org.webjars</groupId>
         <artifactId>hal-browser</artifactId>
-        <version>3325375</version>
+        <version>${hal.browser.version}</version>
       </dependency>
       <dependency>
         <groupId>org.webjars</groupId>
         <artifactId>webjars-locator-core</artifactId>
-        <version>0.35</version>
+        <version>${webjars.locator.core.version}</version>
       </dependency>
       <dependency>
         <groupId>org.xerial</groupId>
@@ -2949,12 +2951,12 @@
       <dependency>
         <groupId>redis.clients</groupId>
         <artifactId>jedis</artifactId>
-        <version>2.9.0</version>
+        <version>${jedis.version}</version>
       </dependency>
       <dependency>
         <groupId>wsdl4j</groupId>
         <artifactId>wsdl4j</artifactId>
-        <version>1.6.3</version>
+        <version>${wsdl4j.version}</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
