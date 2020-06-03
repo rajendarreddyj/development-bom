@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.rajendarreddyj</groupId>
     <artifactId>development-bom</artifactId>
-    <version>1.0.1</version>
+    <version>2.0.0</version>
   </parent>
   <artifactId>development-pom</artifactId>
   <packaging>pom</packaging>
@@ -39,7 +39,7 @@
     <!-- Jersey Version -->
     <jersey.version>2.27</jersey.version>
     <!-- Guava Version -->
-    <guava.version>27.0-jre</guava.version>
+    <guava.version>29.0-jre</guava.version>
     <dropwizard.version>1.3.7</dropwizard.version>
     <micrometer.version>1.1.0</micrometer.version>
     <dropwizard.metrics.version>4.0.3</dropwizard.metrics.version>
@@ -87,7 +87,6 @@
     <!-- Logging Framework Version -->
     <logback.version>1.2.3</logback.version>
     <slf4j.version>1.7.25</slf4j.version>
-    <log4j1.version>1.2.17</log4j1.version>
     <log4j2.version>2.11.1</log4j2.version>
     <!-- httpclient Version -->
     <httpclient.version>4.5.6</httpclient.version>
@@ -589,11 +588,6 @@
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-to-slf4j</artifactId>
         <version>${log4j2.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>log4j</groupId>
-        <artifactId>log4j</artifactId>
-        <version>${log4j1.version}</version>
       </dependency>
       <!-- Logging Dependencies -->
       <!-- Http Client Dependencies -->
