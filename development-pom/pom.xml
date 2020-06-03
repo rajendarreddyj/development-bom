@@ -124,13 +124,13 @@
     <rxjava.version>2.2.0</rxjava.version>
     <groovy.version>2.5.3</groovy.version>
     <rest.assured.version>3.1.1</rest.assured.version>
-    <solr.version>8.1.1</solr.version>
+    <solr.version>8.5.2</solr.version>
     <snakeyaml.version>1.23</snakeyaml.version>
     <!-- Testing Dependencies -->
     <!-- JUNIT Version -->
     <selenium.version>3.14.0</selenium.version>
     <selenium.htmlunit.driver.version>2.33.0</selenium.htmlunit.driver.version>
-    <htmlunit.version>2.32</htmlunit.version>
+    <htmlunit.version>2.40.0</htmlunit.version>
     <xmlunit.version>2.6.2</xmlunit.version>
     <junit.legacy.version>4.12</junit.legacy.version>
     <junit-jupiter.version>5.3.1</junit-jupiter.version>
@@ -172,7 +172,7 @@
     <cassandra.version>3.6.0</cassandra.version>
     <couchbase.java.client.version>2.7.0</couchbase.java.client.version>
     <!-- Nosql DB -->
-    <infinispan.version>9.4.0.Final</infinispan.version>
+    <infinispan.version>10.1.8.Final</infinispan.version>
     <!-- weld cdi -->
     <cdi.api.version>2.0.SP1</cdi.api.version>
     <weld.version>3.0.5.Final</weld.version>
@@ -218,7 +218,7 @@
     <jetty-jsp.version>2.2.0.v201112011158</jetty-jsp.version>
     <jetty-el.version>8.5.33</jetty-el.version>
     <jetty-reactive-httpclient.version>1.0.1</jetty-reactive-httpclient.version>
-    <tomcat.embed.version>9.0.22</tomcat.embed.version>
+    <tomcat.embed.version>9.0.35</tomcat.embed.version>
     <netty.version>4.1.31.Final</netty.version>
     <!-- All source is UTF-8 -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
