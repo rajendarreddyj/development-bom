@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TODO: XMLNS broken until Mojo updates new location -->
-<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" comparisonMethod="maven"
-  xmlns="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0"
-  xsi:schemaLocation="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0
-         http://mojo.codehaus.org/versions-maven-plugin/xsd/rule-2.0.0.xsd">
+<ruleset xmlns="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" comparisonMethod="maven"
+  xsi:schemaLocation="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0 https://www.mojohaus.org/versions-maven-plugin/xsd/rule-2.0.0.xsd">
+  <ignoreVersions>
+    <ignoreVersion type="regex">(?i).*(-|\.)Alpha(?:(-|\.)?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)beta(?:(-|\.)?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)Beta(?:(-|\.)?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)B(?:(-|\.)?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)RC(?:(-|\.)?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)CR(?:(-|\.)?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)M(?:(-|\.)?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)preview(?:(-|\.)?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)incubating.*</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)dev.*</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)rev.*</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)brew.*</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)android.*</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)atlassian.*</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)jboss.*</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)jenkins.*</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)osgi.*</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*(-|\.)redhat.*</ignoreVersion>
+  </ignoreVersions>
   <rules>
     <rule groupId="antlr">
       <ignoreVersions>
