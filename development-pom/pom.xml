@@ -157,7 +157,7 @@
     <xml.apis.version>1.4.01</xml.apis.version>
     <xmlbeans.version>3.0.0</xmlbeans.version>
     <!-- DB Connectors -->
-    <mysql.connector.version>8.0.12</mysql.connector.version>
+    <mysql.connector.version>8.0.16</mysql.connector.version>
     <hsqldb.version>2.4.1</hsqldb.version>
     <h2.version>1.4.197</h2.version>
     <mssql.jdbc.version>7.0.0.jre10</mssql.jdbc.version>
