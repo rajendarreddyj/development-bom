@@ -102,7 +102,7 @@
     <commons.dbcp2.version>2.5.0</commons.dbcp2.version>
     <commons.discovery.version>0.5</commons.discovery.version>
     <commons.lang3.version>3.8.1</commons.lang3.version>
-    <commons.beanutils.version>1.9.3</commons.beanutils.version>
+    <commons.beanutils.version>1.9.4</commons.beanutils.version>
     <commons.digester.version>2.1</commons.digester.version>
     <commons.collections.version>3.2.2</commons.collections.version>
     <commons.collections4.version>4.2</commons.collections4.version>
@@ -119,7 +119,7 @@
     <taglibs.version>1.2.5</taglibs.version>
     <rivr.voicexml.version>1.0.10</rivr.voicexml.version>
     <org.glassfish.javax.json.version>1.1.2</org.glassfish.javax.json.version>
-    <quartz.version>2.3.0</quartz.version>
+    <quartz.version>2.3.2</quartz.version>
     <rxjava.version>2.2.0</rxjava.version>
     <groovy.version>2.5.3</groovy.version>
     <rest.assured.version>3.1.1</rest.assured.version>
@@ -157,7 +157,7 @@
     <xml.apis.version>1.4.01</xml.apis.version>
     <xmlbeans.version>3.0.0</xmlbeans.version>
     <!-- DB Connectors -->
-    <mysql.connector.version>8.0.12</mysql.connector.version>
+    <mysql.connector.version>8.0.20</mysql.connector.version>
     <hsqldb.version>2.4.1</hsqldb.version>
     <h2.version>1.4.197</h2.version>
     <mssql.jdbc.version>7.0.0.jre10</mssql.jdbc.version>
