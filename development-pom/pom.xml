@@ -217,7 +217,7 @@
     <jetty-jsp.version>2.2.0.v201112011158</jetty-jsp.version>
     <jetty-el.version>8.5.33</jetty-el.version>
     <jetty-reactive-httpclient.version>1.0.1</jetty-reactive-httpclient.version>
-    <tomcat.embed.version>9.0.35</tomcat.embed.version>
+    <tomcat.embed.version>9.0.41</tomcat.embed.version>
     <netty.version>4.1.31.Final</netty.version>
     <!-- All source is UTF-8 -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
