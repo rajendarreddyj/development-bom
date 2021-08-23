@@ -150,7 +150,7 @@
     <!-- ESAPI Version -->
     <org.owasp.esapi.version>2.1.0.1</org.owasp.esapi.version>
     <!-- JSOUP Version -->
-    <org.jsoup.version>1.11.3</org.jsoup.version>
+    <org.jsoup.version>1.14.2</org.jsoup.version>
     <xerces.version>2.12.0</xerces.version>
     <velocity.version>1.7</velocity.version>
     <velocity.tools.version>2.0</velocity.tools.version>
