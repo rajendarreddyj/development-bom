@@ -159,7 +159,7 @@
     <!-- DB Connectors -->
     <mysql.connector.version>8.0.20</mysql.connector.version>
     <hsqldb.version>2.4.1</hsqldb.version>
-    <h2.version>1.4.197</h2.version>
+    <h2.version>2.1.210</h2.version>
     <mssql.jdbc.version>7.0.0.jre10</mssql.jdbc.version>
     <sqlite.jdbc.version>3.25.2</sqlite.jdbc.version>
     <!-- Oracle DB jar Version -->
