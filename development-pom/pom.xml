@@ -164,7 +164,7 @@
     <sqlite.jdbc.version>3.25.2</sqlite.jdbc.version>
     <!-- Oracle DB jar Version -->
     <ojdbc6.version>11.2.0.4.0</ojdbc6.version>
-    <postgresql.version>42.2.4</postgresql.version>
+    <postgresql.version>42.2.25</postgresql.version>
     <influxdb.version>2.9</influxdb.version>
     <mongodb.version>3.8.2</mongodb.version>
     <mongodb.reactivestreams.version>1.9.2</mongodb.reactivestreams.version>
