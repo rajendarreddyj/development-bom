@@ -77,7 +77,7 @@
     <antlr.version>2.7.7</antlr.version>
     <jandex.version>2.0.5.Final</jandex.version>
     <kafka.version>2.0.0</kafka.version>
-    <hazelcast.version>3.11</hazelcast.version>
+    <hazelcast.version>5.1</hazelcast.version>
     <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
     <thymeleaf.extras.version>3.0.11.RELEASE</thymeleaf.extras.version>
     <!-- Hibernate/Persistence Frameworks Dependencies End -->
