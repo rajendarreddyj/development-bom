@@ -44,7 +44,7 @@
     <micrometer.version>1.1.0</micrometer.version>
     <dropwizard.metrics.version>4.0.3</dropwizard.metrics.version>
     <narayana.version>5.9.0.Final</narayana.version>
-    <kotlin.version>1.2.61</kotlin.version>
+    <kotlin.version>1.6.0</kotlin.version>
     <sendgrid.java.version>4.2.1</sendgrid.java.version>
     <unboundid.ldapsdk.version>4.0.8</unboundid.ldapsdk.version>
     <hikaricp.version>3.2.0</hikaricp.version>
