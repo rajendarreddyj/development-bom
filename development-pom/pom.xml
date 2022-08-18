@@ -52,7 +52,7 @@
     <lettuce.version>5.1.2.RELEASE</lettuce.version>
     <rest.assured.version>3.1.1</rest.assured.version>
     <jest.version>6.3.1</jest.version>
-    <undertow.version>2.0.27.Final</undertow.version>
+    <undertow.version>2.2.19.Final</undertow.version>
     <atomikos.version>4.0.6</atomikos.version>
     <!-- persistence -->
     <rsql.version>2.1.0</rsql.version>
