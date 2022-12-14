@@ -124,7 +124,7 @@
     <groovy.version>2.5.3</groovy.version>
     <rest.assured.version>3.1.1</rest.assured.version>
     <solr.version>8.5.2</solr.version>
-    <snakeyaml.version>1.23</snakeyaml.version>
+    <snakeyaml.version>1.32</snakeyaml.version>
     <!-- Testing Dependencies -->
     <!-- JUNIT Version -->
     <selenium.version>3.14.0</selenium.version>
