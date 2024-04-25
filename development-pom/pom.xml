@@ -39,7 +39,7 @@
     <!-- Jersey Version -->
     <jersey.version>2.27</jersey.version>
     <!-- Guava Version -->
-    <guava.version>29.0-jre</guava.version>
+    <guava.version>32.0.0-jre</guava.version>
     <dropwizard.version>1.3.7</dropwizard.version>
     <micrometer.version>1.1.0</micrometer.version>
     <dropwizard.metrics.version>4.0.3</dropwizard.metrics.version>
