@@ -93,7 +93,7 @@
     <httpcore.version>4.4.10</httpcore.version>
     <itextpdf.version>5.5.13</itextpdf.version>
     <pdfbox.version>2.0.16</pdfbox.version>
-    <poi.version>4.0.0</poi.version>
+    <poi.version>4.1.1</poi.version>
     <ooxml.schemas.version>1.4</ooxml.schemas.version>
     <xdocreport.version>2.0.1</xdocreport.version>
     <!-- Commons Dependencies -->
