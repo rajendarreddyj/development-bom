@@ -29,7 +29,7 @@
     <aspectj.version>1.9.2</aspectj.version>
     <!-- Struts Version -->
     <struts1.version>1.3.10</struts1.version>
-    <struts2.version>2.5.17</struts2.version>
+    <struts2.version>2.5.33</struts2.version>
     <struts2.tiles3.plugin.version>2.3.35</struts2.tiles3.plugin.version>
     <freemarker.version>2.3.28</freemarker.version>
     <tiles.api.version>3.0.8</tiles.api.version>
